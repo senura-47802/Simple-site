@@ -1,0 +1,205 @@
+body{
+ background-image:url("wallpaper.jfif");
+ background-size: cover;
+ background-color: rgba(37, 11, 11, 0.847);
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: transparent;
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    height: 3%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    justify-content: flex-end;
+}
+li{
+   display: inline; 
+   padding: 30px;
+}
+li a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgba(128, 128, 128, 0.401);
+    border-radius: 10px;
+}
+.about p {
+    text-align: justify;
+    position: absolute;
+    top: 20%;
+    margin-left: 50%;
+    margin-right: 15%;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+.about img{
+    position: absolute;
+    top: 20%;
+    margin-left: 8%;
+    border-radius: 20px;
+
+}
+.about{
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    height: 50%;
+}
+.about button{
+    position: absolute;
+    width: 90px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.138);
+    margin-left: 65%;
+    top: 46.5%;
+    border-radius: 10px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 3px;
+}
+.about button:hover{
+    background-color: rgba(0, 0, 0, 0.568);
+}
+.form {
+    padding: 0 6em;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top:60%;
+    left: 25%;
+    font-family: "Poppins", sans-serif;
+  }
+  .form form {
+    display: flex;
+    flex-direction: column;
+    background-color: #293045;
+    width: 30em;
+    padding: 2em 3em;
+    border-radius: 28px;
+    gap: 1.5em;
+  }
+  .form form .form-title {
+    width: 100%;
+    color: #DCE7FE;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+  .form form .form-input-err {
+    background-color: rgba(252, 40, 40, 0.137254902);
+    color: #ce4747;
+    text-align: center;
+    padding: 0.2em 1em;
+    border-radius: 8px;
+    width: max-content;
+    margin: 0 auto;
+    display: none;
+  }
+  .form form .form-input-err.form-err-show {
+    display: block;
+  }
+  .form form .form-input-field-group {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+  }
+  .form form .form-input-field {
+    position: relative;
+    font-size: 1em;
+    width: 100%;
+  }
+  .form form .form-input-field label {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 0;
+    left: 1em;
+    color: #DCE7FE;
+    font-size: 0.8em;
+  }
+  .form form .form-input-field input, .form form .form-input-field select {
+    width: 100%;
+    font-size: 0.9em;
+    color: rgba(219, 229, 255, 0.7568627451);
+    padding: 0.8em 1.5em;
+    border-radius: 8px;
+    background-color: #1E2436;
+    border: none;
+    outline: none;
+  }
+  .form form .form-input-field input::placeholder, .form form .form-input-field select::placeholder {
+    font-style: italic;
+    color: #7D8AB0;
+  }
+  .form form .form-input-field input:focus, .form form .form-input-field select:focus {
+    padding-bottom: calc(0.8em - 2px);
+    border-bottom: 2px solid #2788F7;
+  }
+  .form form .form-input-field input.input-invalid, .form form .form-input-field select.input-invalid {
+    padding-bottom: calc(0.8em - 2px);
+    border-bottom: 2px solid #FC2828;
+  }
+  .form form .form-input-field select {
+    cursor: pointer;
+  }
+  .form form .form-input-submit button {
+    background: linear-gradient(110deg, #2788F7 0%, #0913FF 100%);
+    color: #DCE7FE;
+    width: 100%;
+    padding: 0.7em 1.5em;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: 0.15s;
+    user-select: none;
+    cursor: pointer;
+  }
+  .form form .form-input-submit button:hover {
+    transform: scale(1.05);
+  }
+  .form form .form-input-submit button:active {
+    transform: scale(0.95);
+  }
+  .form form .form-links {
+    display: flex;
+    flex-direction: column;
+    color: #DCE7FE;
+    text-align: center;
+    font-size: 0.9em;
+    gap: 0.5em;
+    transition: 0.15s;
+  }
+  .form form .form-links span {
+    color: #2788F7;
+  }
+  .form form .form-links a {
+    transition: inherit;
+  }
+  .form form .form-links a:hover {
+    transform: scale(1.1);
+  }
+  .form form .form-links a:active {
+    transform: scale(0.9);
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #293045 ;
+    color: white;
+    top: 120%;
+    position:absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
